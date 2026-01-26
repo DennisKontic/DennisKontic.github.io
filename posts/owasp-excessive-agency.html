@@ -3,39 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OWASP Excessive Agency | AI Security Observer</title>
+    <title>OWASP Excessive Agency - AI Security Observer</title>
     <link rel="stylesheet" href="../styles.css">
+    <style>
+        .post-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+        }
+        .caption {
+            font-style: italic;
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+            display: block;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
+
     <header>
         <h1>AI Security Observer</h1>
+        <p>Tracking the intersection of AI, Cybersecurity, and Red Teaming</p>
     </header>
+
     <nav>
         <a href="../index.html">Home</a>
         <a href="../about.html">About</a>
     </nav>
+
     <div class="container">
-        <div class="content">
-            <h2>OWASP Flags "Excessive Agency" as a Top AI Threat</h2>
-            <p class="post-date">January 20, 2026</p>
-            <hr>
-            <h3>What happened</h3>
-            <p>The Open Web Application Security Project (OWASP) the group that lists the most critical security flaws has highlighted "Excessive Agency" (LLM06) in their Top 10 list for Large Language Models. This warns developers about the dangers of letting AI "agents" do too many things without permission.</p>
-            <h3>Details</h3>
-            <p>"Excessive Agency" happens when an AI is given the power to take actions—like sending emails, buying things, or deleting files—based on its own decisions.</p>
-            <ul>
-                <li><strong>The Risk:</strong> If an attacker tricks the AI (using a prompt injection) the AI might use its "agency" to do something bad, like deleting a user's entire database, because it thought it was helping.</li>
-                <li><strong>The Fix:</strong> OWASP recommends that AI should only have "read-only" access whenever possible, and a human should always have to click "approve" before the AI does anything big.</li>
-            </ul>
-            <h3>Context</h3>
-            <p>In the past we only worried about AI saying bad things. Now that we are connecting AI to our email and bank accounts we have to worry about AI doing bad things. This warning from OWASP is a wake up call that "autonomous" AI is dangerous if you don't put guardrails around it.</p>
-            <h3>My Take</h3>
-            <p>It is like giving a toddler a credit card. Even if the toddler (the AI) means well they might accidentally buy a pony. This vulnerability shows that we need to limit what buttons the AI is allowed to push no matter how smart we think it is.</p>
-            <p><a href="../index.html">← Back to Home</a></p>
-        </div>
+        
+        <h2>OWASP Flags "Excessive Agency" as a Top AI Threat</h2>
+        <p class="post-date">January 20, 2026</p>
+        <hr>
+
+        <img src="../assets/images/owasp-risk.jpg" alt="Robotic hand hovering over a red execute button" class="post-image">
+        <span class="caption">Giving AI autonomous control is like giving a toddler a credit card.</span>
+
+        <h3>What happened</h3>
+        <p>The Open Web Application Security Project (OWASP) the group that lists the most critical security flaws has highlighted "Excessive Agency" (LLM06) in their Top 10 list for Large Language Models. This warns developers about the dangers of letting AI "agents" do too many things without permission.</p>
+
+        <h3>Details</h3>
+        <p>"Excessive Agency" happens when an AI is given the power to take actions—like sending emails, buying things, or deleting files—based on its own decisions.</p>
+        <ul>
+            <li><strong>The Risk:</strong> If an attacker tricks the AI (using a prompt injection) the AI might use its "agency" to do something bad, like deleting a user's entire database, because it thought it was helping.</li>
+            <li><strong>The Fix:</strong> OWASP recommends that AI should only have "read-only" access whenever possible, and a human should always have to click "approve" before the AI does anything big.</li>
+        </ul>
+
+        <h3>Context</h3>
+        <p>In the past we only worried about AI saying bad things. Now that we are connecting AI to our email and bank accounts we have to worry about AI doing bad things. This warning from OWASP is a wake up call that "autonomous" AI is dangerous if you don't put guardrails around it.</p>
+
+        <h3>My Take</h3>
+        <p>It is like giving a toddler a credit card. Even if the toddler (the AI) means well they might accidentally buy a pony. This vulnerability shows that we need to limit what buttons the AI is allowed to push no matter how smart we think it is.</p>
+
+        <p><a href="../index.html">&larr; Back to Home</a></p>
+
     </div>
+
     <footer>
-        <p>&copy; 2026 Dennis Kontic.</p>
+        <p>&copy; 2026 Dennis Kontic. Built for Lindenwood University Applied AI.</p>
     </footer>
+
 </body>
 </html>
