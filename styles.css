@@ -1,59 +1,60 @@
-/* Intentional Design Choices for Module 4 */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Security Observer | Dennis Kontic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AI Security Observer</h1>
+        <p>Tracking the intersection of AI, Cybersecurity, and Red Teaming</p>
+    </header>
 
-:root {
-  --bg-dark: #0d1117;       /* Dark background for a terminal feel */
-  --card-bg: #161b22;       /* Lighter card for visual hierarchy */
-  --text-main: #c9d1d9;      /* Light gray to reduce eye strain */
-  --accent-blue: #58a6ff;    /* Professional cyber blue */
-  --accent-green: #238636;   /* Security green for links */
-}
+    <nav>
+        <div class="container" style="text-align: center; padding: 1rem 0;">
+            <a href="index.html" style="margin-right: 20px;">Home</a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
 
-body {
-  background-color: var(--bg-dark);
-  color: var(--text-main);
-  font-family: sans-serif;
-  line-height: 1.6;           /* Improved spacing for readability */
-  margin: 0;
-  padding: 0;
-}
+    <div class="container">
+        <div class="updates-card">
+            <h2>Latest Updates</h2>
+            <p>Welcome to my newsletter on securing AI systems.</p>
+            
+            <ul class="post-list" style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 1.5rem;">
+                    <a href="posts/automated-defenses.html" style="font-size: 1.25rem; font-weight: bold;">Beyond the Script: Scaling Blue Team Defenses with AI</a>
+                    <div class="post-date">February 1, 2026</div>
+                </li>
 
-header {
-  background-color: var(--bg-dark);
-  padding: 3rem 1rem;
-  text-align: center;
-  border-bottom: 1px solid #30363d;
-}
+                <li style="margin-bottom: 1.5rem;">
+                    <a href="posts/shadow-ai.html" style="font-size: 1.25rem; font-weight: bold;">The Rise of "Shadow AI": When Employees Bypass Security</a>
+                    <div class="post-date">January 27, 2026</div>
+                </li>
+                
+                <li style="margin-bottom: 1.5rem;">
+                    <a href="posts/nist-generative-ai.html" style="font-size: 1.25rem; font-weight: bold;">NIST Generative AI Profile Sets the Standard for Secure AI</a>
+                    <div class="post-date">January 20, 2026</div>
+                </li>
 
-.container {
-  max-width: 800px;           /* Prevents long line lengths */
-  margin: 0 auto;
-  padding: 2rem;
-}
+                <li style="margin-bottom: 1.5rem;">
+                    <a href="posts/owasp-excessive-agency.html" style="font-size: 1.25rem; font-weight: bold;">OWASP Flags "Excessive Agency" as a Top AI Threat</a>
+                    <div class="post-date">January 20, 2026</div>
+                </li>
 
-/* Card Styling for latest updates */
-.updates-card {
-  background-color: var(--card-bg);
-  border: 1px solid #30363d;
-  border-radius: 6px;
-  padding: 2rem;
-}
+                <li style="margin-bottom: 1.5rem;">
+                    <a href="posts/google-model-armor.html" style="font-size: 1.25rem; font-weight: bold;">Google Cloud Debuts "Model Armor" to Firewall AI Prompts</a>
+                    <div class="post-date">January 20, 2026</div>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-h1, h2 {
-  color: var(--accent-blue);
-  font-family: monospace;     /* Technical monospace for headers */
-}
-
-a {
-  color: var(--accent-green);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.post-date {
-  font-size: 0.8rem;
-  color: #8b949e;
-  text-transform: uppercase;
-}
+    <footer>
+        <p>&copy; 2026 Dennis Kontic. Built for Lindenwood University Applied AI.</p>
+    </footer>
+</body>
+</html>
