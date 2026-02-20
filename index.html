@@ -4,61 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Security Observer | Dennis Kontic</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="site-header">
         <h1>AI Security Observer</h1>
-        <p>Tracking the intersection of AI, Cybersecurity, and Red Teaming</p>
+        <p class="subtitle">Tracking the intersection of AI, Cybersecurity, and Red Teaming</p>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <div class="container" style="text-align: center; padding: 1rem 0;">
-            <a href="index.html" style="margin-right: 20px;">Home</a>
-            <a href="about.html">About</a>
-        </div>
-    </nav>
-
-    <div class="container">
-        <div class="updates-card">
-            <h2>Latest Updates</h2>
-            <p>Welcome to my newsletter on securing AI systems.</p>
+    <main class="container">
+        <section class="featured-post">
             
-            <ul class="post-list" style="list-style: none; padding: 0;">
+            <div class="featured-content">
+                <span class="badge badge-red">Red Team</span>
+                <span class="badge badge-capstone">Capstone</span>
+                <h2><a href="red-teaming-llms.html">How to Red Team Large Language Models: A Guide to Basic Testing</a></h2>
+                <p class="date">February 20, 2026</p>
                 
-                <li style="margin-bottom: 2rem; border-bottom: 1px solid #333; padding-bottom: 1rem;">
-                    <a href="posts/prompt-injection-guide.html" style="font-size: 1.4rem; font-weight: bold; color: #4ade80;">The Blue Team's Guide to LLM Attacks: Distinguishing Prompt Injection from Jailbreaking</a>
-                    <div class="post-date" style="margin-top: 5px;">February 12, 2026</div>
-                    <p style="margin-top: 10px; font-size: 1rem; color: #ccc;"><strong>CAPSTONE:</strong> A deep-dive technical analysis clarifying the difference between user-side jailbreaks and agent-side injections—and why the latter is the real threat to enterprise security.</p>
-                </li>
-
-                <li style="margin-bottom: 1.5rem;">
-                    <a href="posts/automated-defenses.html" style="font-size: 1.25rem; font-weight: bold;">Beyond the Script: Scaling Blue Team Defenses with AI</a>
-                    <div class="post-date">February 1, 2026</div>
-                </li>
-
-                <li style="margin-bottom: 1.5rem;">
-                    <a href="posts/shadow-ai.html" style="font-size: 1.25rem; font-weight: bold;">The Rise of "Shadow AI": When Employees Bypass Security</a>
-                    <div class="post-date">January 27, 2026</div>
-                </li>
+                <div class="bluf-box">
+                    <strong>Bottom Line Up Front (BLUF):</strong> While Blue Team defenses focus on securing the perimeter, Red Teaming LLMs requires an adversarial mindset to expose internal logic flaws. This guide breaks down prompt injection testing and safety evaluations for both technical analysts and security executives.
+                </div>
                 
-                <li style="margin-bottom: 1.5rem;">
-                    <a href="posts/nist-generative-ai.html" style="font-size: 1.25rem; font-weight: bold;">NIST Generative AI Profile Sets the Standard for Secure AI</a>
-                    <div class="post-date">January 20, 2026</div>
-                </li>
+                <p class="summary">A deep-dive technical analysis covering basic adversarial testing prompts, safety evaluation techniques, and how to identify vulnerabilities before threat actors do.</p>
+                <a href="red-teaming-llms.html" class="read-more">Read Full Guide &rarr;</a>
+            </div>
+        </section>
 
-                <li style="margin-bottom: 1.5rem;">
-                    <a href="posts/owasp-excessive-agency.html" style="font-size: 1.25rem; font-weight: bold;">OWASP Flags "Excessive Agency" as a Top AI Threat</a>
-                    <div class="post-date">January 20, 2026</div>
-                </li>
+        <section class="archive-section">
+            <h3 class="section-title">Latest Updates</h3>
+            <div class="post-list">
+                
+                <article class="post-item">
+                    <span class="badge badge-blue">Blue Team</span>
+                    <h4><a href="#">The Blue Team's Guide to LLM Attacks: Distinguishing Prompt Injection from Jailbreaking</a></h4>
+                    <p class="date">February 12, 2026</p>
+                </article>
 
-                <li style="margin-bottom: 1.5rem;">
-                    <a href="posts/google-model-armor.html" style="font-size: 1.25rem; font-weight: bold;">Google Cloud Debuts "Model Armor" to Firewall AI Prompts</a>
-                    <div class="post-date">January 20, 2026</div>
-                </li>
-            </ul>
-        </div>
-    </div>
+                <article class="post-item">
+                    <span class="badge badge-blue">Blue Team</span>
+                    <h4><a href="#">Beyond the Script: Scaling Blue Team Defenses with AI</a></h4>
+                    <p class="date">February 1, 2026</p>
+                </article>
+
+                <article class="post-item">
+                    <span class="badge badge-case">Case Study</span>
+                    <h4><a href="#">The Rise of "Shadow AI": When Employees Bypass Security</a></h4>
+                    <p class="date">January 27, 2026</p>
+                </article>
+
+            </div>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2026 Dennis Kontic. Built for Lindenwood University Applied AI.</p>
