@@ -7,25 +7,40 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>About the Newsletter</h1>
+    <header class="site-header">
+        <h1>AI Security Observer</h1>
+        <p class="subtitle">Tracking the intersection of AI, Cybersecurity, and Red Teaming</p>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="references.html">References</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-    </nav>
-    <div class="container">
-        <div class="content">
-            <h2>The Focus: AI Security & Red Teaming</h2>
-            <p>My topic choice is securing AI systems using cybersecurity principles such as AI Red Teaming and Blue Teaming defense.</p>
-            <h3>Why This Topic?</h3>
-            <p>I focus on this area because as AI becomes more integrated into business operations, it introduces unique vulnerabilities like prompt injection and excessive agency.</p>
+
+    <main class="container">
+        <section class="featured-post">
+            <span class="badge badge-capstone">The Mission</span>
+            <h2>About the Project</h2>
+            <p>AI Security Observer was founded to bridge the gap between technical vulnerability research and executive-level security strategy. As Artificial Intelligence becomes integrated into every layer of the enterprise, the "Attack Surface" is expanding faster than traditional defenses can keep up.</p>
+            
+            <p>This project documents the transition from **Blue Team** defensive configurations to **Red Team** adversarial testing. By analyzing frameworks like the **NIST AI RMF** and **OWASP Top 10 for LLMs**, this newsletter provides actionable insights for securing the next generation of technology.</p>
+
+            <hr style="border: 0; border-top: 1px solid #30363d; margin: 30px 0;">
+
             <h3>About the Author</h3>
-            <p><strong>Dennis Kontic</strong> is an undergraduate student at Lindenwood University. This site is for his CAH20501-Fundamentals of Applied AI (GE-Comm)_Spring I 26 8-Week_ONLINE 2026 Spring Semester class. </p>
-        </div>
-    </div>
+            <p><strong>Dennis Kontic</strong> is a Cybersecurity professional and a Bachelor of Science candidate at Lindenwood University (expected May 2026). With a background as an IT Technician and a deep focus on offensive security, Dennis specializes in identifying logic flaws in Large Language Models and developing automated defensive architectures.</p>
+            
+            <p>When not researching AI vulnerabilities, Dennis contributes to the cybersecurity community through his YouTube channel, <strong>DonkeySec</strong>, where he provides technical write-ups for complex security labs.</p>
+            
+            <a href="index.html" class="read-more">&larr; Back to Home</a>
+        </section>
+    </main>
+
     <footer>
-        <p>&copy; 2026 Dennis Kontic.</p>
+        <p>&copy; 2026 Dennis Kontic. Built for Lindenwood University Applied AI.</p>
     </footer>
 </body>
 </html>
