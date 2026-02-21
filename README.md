@@ -1,29 +1,20 @@
-# AI Security Observer 🛡️🤖
-**Tracking the intersection of AI, Cybersecurity, and Red Teaming.**
+# AI Security Observer 🛡️
+**A Cybersecurity Portfolio tracking AI vulnerabilities and defensive scaling.**
 
-## Project Overview
-AI Security Observer is a professional cybersecurity publication hosted on GitHub Pages. Originally started as a student blog for **Lindenwood University**, the project evolved in Phase 2 into a scholarly resource focused on the transition from defensive (Blue Team) to offensive (Red Team) AI security operations.
+## Overview
+This project is a professional-grade prototype built for the **Fundamentals of Applied AI** course at Lindenwood University. It demonstrates the transition from Blue Team automation to Red Team adversarial testing in Generative AI systems.
 
-### Key Features
-- **Featured Capstone:** Deep-dive analysis of Red Teaming LLMs.
-- **BLUF Summaries:** "Bottom Line Up Front" boxes designed for executive-level readability.
-- **Resources Page:** Curated links to the NIST AI RMF and OWASP Top 10 for LLMs.
-- **Dark Mode Aesthetic:** A custom CSS theme designed for the cybersecurity niche.
-
-## Technical Skills Demonstrated
-- **Frontend Development:** Custom HTML5 and CSS3 (Flexbox, responsive design).
-- **Security Research:** Application of NIST and OWASP frameworks to Generative AI.
-- **Adversarial Testing:** Documentation of prompt injection and context-ignoring attacks.
+## Key Features
+- **Featured Capstone:** Technical guide on Red Teaming LLMs.
+- **BLUF Summaries:** Optimized for executive-level communication.
+- **Resources:** Direct links to NIST and OWASP AI frameworks.
+- **Responsive Dark Mode:** Custom CSS designed for the cybersecurity aesthetic.
 
 ## Human-AI Collaboration
-This project was developed in collaboration with **Gemini (Google AI)**. AI was utilized for:
-1. **Pair Programming:** Debugging relative file paths and CSS layouts for the "Hero" section.
-2. **Content Strategy:** Brainstorming realistic adversarial prompts for security guides.
-3. **Documentation:** Assisting with APA 7th Edition citations and project reflection.
+Developed in partnership with Gemini AI. AI was utilized for:
+1. **Pair Programming:** Debugging Flexbox layouts and GitHub folder routing.
+2. **Strategy:** Simulating adversarial prompt injection scenarios.
+3. **Refinement:** Polishing content for professional clarity and APA 7 accuracy.
 
-## Links
-- **Live Site:** [https://denniskontic.github.io](https://denniskontic.github.io)
-- **Author:** Dennis Kontic (B.S. Cybersecurity candidate, 2026)
-
----
-*Created for Fundamentals of Applied AI (GE-Comm) - Spring 2026*
+**Live Project:** [https://denniskontic.github.io](https://denniskontic.github.io)
+*Dennis Kontic | B.S. Cybersecurity Candidate (2026)*
